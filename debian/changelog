@@ -1,5 +1,6 @@
 istgt (0.5~20120901-1) UNRELEASED; urgency=low
 
+  [ Arno Töll ]
   * NOT RELEASED YET
   * New upstream version
   * Refresh patches by letting hunks beyond there offsets unchanged, with
@@ -7,6 +8,9 @@ istgt (0.5~20120901-1) UNRELEASED; urgency=low
     + Drop fix-as-needed-build.patch: applied upstream
     + Drop fix-autosize.patch: applied upstream conditionally when compiling
       with --enable-symlink-device which we do now.
+
+  [ Guillem Jover ]
+  * Switch to canonical Vcs URLs.
 
  -- Arno Töll <arno@debian.org>  Sun, 09 Sep 2012 14:09:21 +0200
 
